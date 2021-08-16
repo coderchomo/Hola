@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAOFORMDONGIAN</title>
+</head>
+<style>
+    table tr th {
+        background-color:orangered;
+        color:white;
+    }
+    table tr td {
+        background-color:white;
+        color:blue;
+    }
+    span {
+        color:orangered;
+    }
+</style>
+<body style="width: 200px;">
+<form method="get">
+    <fieldset>
+    <table>
+        <div style="
+    background-color: #dafbff;
+    width: 500px;
+    padding: 10px;
+">
+            <form method="get" style="
+    background-color: white;
+    width: 400px;
+">
+        <tr>
+            <th colspan="5">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td style="text-align:right">Họ và tên</td>
+            <td><input type="text" name="yourname"></td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Email</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Sở thích</td>
+            <td><input type="checkbox" name="hobby" value="Thể thao"><span>Thể thao</span></td>
+            <td><input type="checkbox" name="hobby" value="Âm nhạc"><span>Âm nhạc</span></td>
+            <td><input type="checkbox" name="hobby" value="Đọc sách"><span>Đọc sách</span><br></td>
+        </tr>
+        <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby" value="Lướt web"><span>Lướt web</span></td>
+            <td><input type="checkbox" name="hobby" value="Chơi game"><span>Chơi game</span> </td>
+            <td><input type="checkbox" name="hobby" value="Điện ảnh"><span>Điện ảnh</span> <br></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby" value="Du lịch"><span>Du lịch</span> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
